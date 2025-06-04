@@ -1,10 +1,11 @@
 import React from "react";
+import'./style.css';
 
 function Footer() {
   const year = new Date().getFullYear();
   return (
     <footer>
-      <p>© {year} Keeper App</p>
+      <p>Copyright @ 2025</p>
     </footer>
   );
 }
